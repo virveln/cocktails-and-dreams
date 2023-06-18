@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Cocktails & Dreams</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html">
+                <h1>Cocktails & Dreams</h1>
+            </a>
+        </header>
+
+        <main class="container-fluid my-4">
+            <form id="search-form">
+                <h6>Search by: </h6>
+                <div id="search-by">
+                    <button type="button" value="ingredient" class="btn btn-info">Ingredient</button>
+                    <button type="button" value="cocktail name" class="btn btn-outline-info">Name</button>
+                    <button type="button" value="first letter" class="btn btn-outline-info">First Letter</button>
+                </div>
+
+                <label for="search" class="sr-only">Search cocktails</label>
+                <div class="input-group">
+                    <input type="search" id="search" autocomplete="off" placeholder="Enter ingredient" class="form-control">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-info"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+
+            <div id="filter-container">
+                <h6 class="m-0" >Filter by: </h6>
+                <div id="filter-inner-container">
+                    <div id="filter">
+                        <a href="#">Category</a>
+                        <a href="#">Glass-type</a>
+                        <a href="#">Alcoholic</a>
+                    </div>
+                    <button id="random-button" type="button" class="btn btn-outline-info">Random Cocktail Recipe</button>
+                </div>
+            </div>
+
+            <div id="preloader" class="mt-5 ">
+                <div class="spinner-border text-info"></div>
+            </div>
+            
+            <div id="content" class="mb-4">
+            </div>
+
+            <div id="frontpage-pic">
+                <img src="img/cocktail1.jpg" alt="Image of cockail">
+                <img src="img/cocktail2.jpg" alt="Image of cockail">
+                <img src="img/cocktail3.jpg" alt="Image of cockail">
+            </div>
+
+            <button type="button" class="btn btn-info btn-floating btn-lg" id="button-to-top"><i class="fas fa-arrow-up"></i></button>
+        </main>
+
+        <footer>
+            <h3>&copy; Cocktails & Dreams</h3>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
