@@ -1,7 +1,8 @@
 # Cocktails & Dreams
 Assignment to create an interactive website which presents the content of open datasets through JSON. JavaScript | CSS | HTML | Solo project
 
-**Uppgift:** Skapa en interaktiv och responsiv webbsida som presenterar innehåll från ett rest-API via JSON. 
+**Uppgift:** Skapa en interaktiv och responsiv webbsida som presenterar innehåll från ett rest-API via JSON.  
+
 **Resultat:** Lösningen blev en webbsida där man kan söka efter cocktailrecept utefter olika sökalternativ och filter. Sidan är interaktiv och man kan på många olika sätt komma åt de olika kategorierna och recepten.
 
 ## Mockups
