@@ -1,4 +1,6 @@
 # Cocktails & Dreams
+[Visit website](https://virveln.github.io/cocktails-and-dreams/)  
+  
 Assignment to create an interactive website which presents the content of open datasets through JSON. JavaScript | CSS | HTML | Solo project
 
 **Uppgift:** Skapa en interaktiv och responsiv webbsida som presenterar innehåll från ett rest-API via JSON.  
